@@ -1,0 +1,38 @@
+/**
+ * -------------------------------------
+ * @file  testing.txt
+ * Lab 3 Test Results File
+ * -------------------------------------
+ * @author Mehdi Al-heloo, 169063997, alhe3997@mylaurier.ca
+ *
+ * @version 2025-01-31
+ *
+ * -------------------------------------
+ */
+Test: sum_integers
+
+Enter integers, one per line:
+2
+43
+3
+q
+Sum: 48
+
+Test: sum_three_integers
+
+Enter three comma-separated integers: 2,3,3,3 
+Sum: 8
+
+Test: int_array_read
+
+Enter 4 values for an array of int.
+Value for index 0: 6.9
+Value for index 1: twelve
+Not a valid integer
+Value for index 1: 12
+Value for index 2: 
+Not a valid integer
+Value for index 2: 5 6 8
+Value for index 3: -8
+{6, 12, 5, -8}
+

@@ -1,0 +1,43 @@
+/**
+ * -------------------------------------
+ * @file  testing.txt
+ * Lab 2 Test Results File
+ * -------------------------------------
+ * @author Mehdi Al-heloo, 169063997, alhe3997@mylaurier.ca
+ *
+ * @version 2025-01-24
+ *
+ * -------------------------------------
+ */
+
+Using index-based arrays
+
+Value  Square
+-----  ----------
+    1           1
+    2           4
+    3           9
+    4          16
+    5          25
+    6          36
+----------------------------------
+Resetting array:
+Value  Square
+-----  ----------
+    0           0
+    0           0
+    0           0
+    0           0
+    0           0
+    0           0
+----------------------------------
+Using pointer-based arrays
+
+Value  Square
+-----  ----------
+    1           1
+    2           4
+    3           9
+    4          16
+    5          25
+    6          36

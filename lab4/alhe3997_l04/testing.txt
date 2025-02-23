@@ -1,0 +1,42 @@
+/**
+ * -------------------------------------
+ * @file  testing.txt
+ * Lab 4 Test Results File
+ * -------------------------------------
+ * @author Mehdi Al-heloo, 169063997, alhe3997@mylaurier.ca
+ *
+ * @version 2025-02-07
+ *
+ * -------------------------------------
+ */
+
+PS C:\cp264\lab\lab4\l04_given\src> gcc main.c strings_array.c strings_with_substring.c strings_length.c -o t1
+PS C:\cp264\lab\lab4\l04_given\src> ./t1
+------------------------
+Test read_strings
+
+lines read: 3
+
+Contents of string array
+------------------------
+A short line
+A longer line
+A really long line that never seems to end and goes on and on
+
+------------------------
+Test strings_with_substring
+
+Enter substring: long
+A longer line
+A really long line that never seems to end and goes on and on
+------------------------
+Test strings_length
+
+Enter the length comparison value: 15
+
+short.txt contents:
+A short line
+A longer line
+
+long.txt contents:
+A really long line that never seems to end and goes on and on

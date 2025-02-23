@@ -1,0 +1,44 @@
+/**
+ * -------------------------------------
+ * @file  testing.txt
+ * Lab 1 Test Results File
+ * -------------------------------------
+ * @author Mehdi Al-heloo, 169063997, alhe3997@mylaurier.ca
+ *
+ * @version 2025-01-05
+ *
+ * -------------------------------------
+ */
+Results:
+PS C:\cp264\lab\lab1\l01_given\src> ./test
+Program Parameters:
+
+  No user parameters specified.
+
+  Argument 0 is a system default, and is always passed to the main program.
+  Argument 0 is the path and name of the executable file.
+
+  argc: 1
+  argv[0] = "C:\cp264\lab\lab1\l01_given\src\test.exe"
+
+PS C:\cp264\lab\lab1\l01_given\src> ./test A 1 "some strings"
+Program Parameters:
+
+  argc: 4
+
+  argv[0] = "C:\cp264\lab\lab1\l01_given\src\test.exe"
+  argv[1] = "A"
+  argv[2] = "1"
+  argv[3] = "some strings"
+
+PS C:\cp264\lab\lab1\l01_given\src> ./test B 2 some strings
+Program Parameters:
+
+  argc: 5
+
+  argv[0] = "C:\cp264\lab\lab1\l01_given\src\test.exe"
+  argv[1] = "B"
+  argv[2] = "2"
+  argv[3] = "some"
+  argv[4] = "strings"
+PS C:\cp264\lab\lab1\l01_given\src> 
